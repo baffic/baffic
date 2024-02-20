@@ -74,15 +74,15 @@ body {
 
 
 .capacity-section {
-  background-color: #fdf9f9; /* Color de fondo */
-  padding: 20px 0; /* Ajuste del padding para centrar las líneas */
+  background-color: #fdf9f9; 
+  padding: 20px 0; 
   text-align: center,
 }
 
 .capacity-container {
   margin-bottom: 0px;
   margin-left: 30px;
-  text-align: left; /* Justifica el texto desde la izquierda */
+  text-align: left; 
 
 }
 
@@ -92,42 +92,42 @@ body {
 }
 
 .counter-container img {
-  width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+  width: 30px; 
 }
 
 .counter {
-  font-size: 20px; /* Tamaño del contador */
+  font-size: 20px; 
   font-weight: bold;
-  color: #228B22; /* Color del número */
-  display: inline-block; /* Coloca el número en la misma línea */
+  color: #228B22; 
+  display: inline-block; 
 }
 
 .counter-label {
-  display: inline-block; /* Coloca las palabras en la misma línea */
-  margin-top: 2px; /* Espaciado superior entre las palabras y los números */
-  font-size: 20px; /* Tamaño del contador */
+  display: inline-block; 
+  margin-top: 2px; 
+  font-size: 20px; 
   font-weight: bold;
-  color: #228B22; /* Color del número */
+  color: #228B22; 
 }
 
 .info-label {
-  display: inline-block; /* Coloca las palabras en la misma línea */
-  margin-top: 2px; /* Espaciado superior entre las líneas de información */
+  display: inline-block; 
+  margin-top: 2px; 
   font-weight: bold;
 }
 
 @media (max-width: 576px) {
   .counter {
-    font-size: 16px; /* Ajusta el tamaño del contador en dispositivos móviles */
+    font-size: 16px; 
   }
   .counter-label {
   
-    font-size: 15px; /* Tamaño del contador */
+    font-size: 15px; 
    
   }
   .info-label {
-    display: inline-block; /* Coloca las palabras en la misma línea */
-    margin-top: 2px; /* Espaciado superior entre las líneas de información */
+    display: inline-block; 
+    margin-top: 2px; 
     font-weight: bold;
     font-size: 10px;
   }
@@ -183,9 +183,9 @@ body {
   }
 
   #client-logo {
-    max-width: 80%; /* Establece un ancho máximo para el contenedor */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-    overflow: hidden; /* Evita que el carrusel se extienda más allá de los límites del contenedor */
+    max-width: 80%; 
+    margin: 0 auto; 
+    overflow: hidden; 
   }
 }
 
@@ -245,9 +245,9 @@ body {
 #client-logo {
   width: 800px;
   display: flex;
-  flex-direction: row; /* Cambiado de columna a fila */
+  flex-direction: row; 
   justify-content: center;
-  margin: 0 auto; /* Añadido para centrar el contenedor horizontalmente */
+  margin: 0 auto; 
 }
 
 #client-logo .clienteimg {
@@ -256,14 +256,14 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0; /* Ajustado a cero el margen entre las imágenes */
+  margin: 0; 
 }
 
 #client-logo .clienteimg img {
-  width: 150px; /* Ajusta el ancho deseado para todas las imágenes */
-  height: 70px; /* Ajusta la altura deseada para todas las imágenes */
+  width: 150px; 
+  height: 70px; 
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 50px; /* Puedes ajustar este valor según sea necesario */
+  margin-bottom: 50px;
   margin-top: 120px;
 }

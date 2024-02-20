@@ -1,4 +1,3 @@
-// contador.js
 document.addEventListener("DOMContentLoaded", function () {
     const counters = document.querySelectorAll('.counter');
     const speed = 200; // La velocidad del contador

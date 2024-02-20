@@ -272,7 +272,6 @@
   <script>
 
 $(document).ready(function () {
-    // Configuración del carrusel de clientes
     $('#client-logo').owlCarousel({
       items: 3,
       loop: true,
@@ -297,12 +296,10 @@ $(document).ready(function () {
 
     // Inicializar FancyBox
     $('[data-fancybox^="group"]').fancybox({
-      // Opciones de configuración de FancyBox, si es necesario
     });
   });
   
   
-      // Ejecutar la función al cargar la página y al cambiar el tamaño de la ventana
       initializeImageCarousel();
   
       $(window).resize(function () {
